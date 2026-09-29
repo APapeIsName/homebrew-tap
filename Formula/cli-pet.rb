@@ -1,8 +1,8 @@
 class CliPet < Formula
   desc "Tiny desktop pet that floats above your terminal and reacts to Claude Code"
   homepage "https://github.com/APapeIsName/cli-pet"
-  url "https://github.com/APapeIsName/cli-pet/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "072372ce13ae3d07b9dcefff43a199668bd541073b86358e1d70f9d40cb3d20b"
+  url "https://github.com/APapeIsName/cli-pet/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "bc4ee7ee50e81d4fc4b960a48ff835c456e029bc7fbf540cd1a8f6dd12fa5781"
   license "MIT"
   head "https://github.com/APapeIsName/cli-pet.git", branch: "main"
 
@@ -25,6 +25,10 @@ class CliPet < Formula
         cli-pet install --no-hooks
         /plugin marketplace add APapeIsName/cli-pet
         /plugin install cli-pet@cli-pet
+
+      Make your own pet from PNG files (normal.png, happy.png, ...):
+        cli-pet pack new anime-myseries-mychar ~/path/to/pngs
+        https://github.com/APapeIsName/cli-pet/blob/main/docs/custom-packs.md
 
       Before uninstalling, remove the hooks and login item:
         cli-pet uninstall
