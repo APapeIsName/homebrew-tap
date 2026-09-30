@@ -1,8 +1,8 @@
 class CliPet < Formula
   desc "Tiny desktop pet that floats above your terminal and reacts to Claude Code"
   homepage "https://github.com/APapeIsName/cli-pet"
-  url "https://github.com/APapeIsName/cli-pet/archive/refs/tags/v0.1.7.tar.gz"
-  sha256 "68d85d46622a36283c5c93702e75c814e61e9cfc264bcbb76e3a0c774571cc70"
+  url "https://github.com/APapeIsName/cli-pet/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "3073605d14e1b23ba9d80f08dda68f350deb707fe6906d97da14c18c4d180183"
   license "MIT"
   head "https://github.com/APapeIsName/cli-pet.git", branch: "main"
 
